@@ -23,11 +23,16 @@
     <meta property="og:description" content="Sites vitrines, maintenance, hébergement & domaine, SEO. Un seul artisan du web, des délais convenus, un impact mesurable." />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="https://oktelys.com/" />
+    <meta property="og:image" content="https://oktelys.com/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Oktelys — Provoquez l'impact numérique de votre entreprise" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Oktelys — Provoquez l'impact numérique de votre entreprise" />
     <meta name="twitter:description" content="Sites vitrines, maintenance, hébergement & domaine, SEO. Un impact numérique réel, pixel par pixel." />
+    <meta name="twitter:image" content="https://oktelys.com/og.jpg" />
 
     <!-- Fonts : Plus Jakarta Sans (identité Oktelys) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -50,8 +55,43 @@
         "url": "https://oktelys.com/"
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-nKPMZe_t.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DNMLlJVf.css">
+
+    <!-- Données structurées : FAQ (résultats enrichis Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Vous travaillez vraiment seul ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Oui, à 100 %. De la première maquette à la mise en ligne, c'est moi qui conçois, code et suis votre site. Vous avez un seul interlocuteur, qui connaît votre projet par cœur." }
+          },
+          {
+            "@type": "Question",
+            "name": "En combien de temps mon site est-il en ligne ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Tout dépend de la formule et de vos contenus, mais on fixe ensemble un planning précis dès le départ. Un site vitrine essentiel se réalise généralement en quelques semaines — et le délai convenu est tenu." }
+          },
+          {
+            "@type": "Question",
+            "name": "Qui s'occupe de l'hébergement et du nom de domaine ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Moi, de A à Z. Domaine, hébergement, certificat SSL, adresses mail professionnelles : vous n'avez rien de technique à gérer." }
+          },
+          {
+            "@type": "Question",
+            "name": "Pourrai-je modifier mon site moi-même ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Selon la formule, une formation à la prise en main est incluse. Et si vous préférez être tranquille, je propose une maintenance en abonnement : mises à jour, sauvegardes et modifications à la demande." }
+          },
+          {
+            "@type": "Question",
+            "name": "Et le référencement sur Google ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Le SEO technique de base est intégré dès la conception. Pour aller plus loin (mots-clés locaux, fiche Google Business, suivi des positions), une prestation SEO dédiée est disponible." }
+          }
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-NTOSAxOF.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CYLMzxNw.css">
   </head>
   <body>
     <div id="app"></div>
